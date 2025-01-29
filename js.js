@@ -30,14 +30,7 @@
   }
   );
 
-  // when escape key is pressed, hide the content
-  button.addEventListener('keydown', function(event) {
-    if (event.key === 'Escape') {
-      content.style.display = 'none';
-      button.setAttribute('aria-expanded', 'false');
-      button.querySelector('span').textContent = '▼';
-    }
-  });
+
 
 
 
@@ -63,11 +56,14 @@
   }
   );
 
-  // when escape key is pressed, hide the content
-  button2.addEventListener('keydown', function(event) {
-    if (event.key === 'Escape') {
-      content2.style.display = 'none';
-      button2.setAttribute('aria-expanded', 'false');
-      button2.querySelector('span').textContent = '▼';
-    }
-  });
+    // whenever escape key is pressed, hide the content
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        content.style.display = 'none';
+        button.setAttribute('aria-expanded', 'false');
+        button.querySelector('span').textContent = '▼';
+        content2.style.display = 'none';
+        button2.setAttribute('aria-expanded', 'false');
+        button2.querySelector('span').textContent = '▼';
+      }
+    });
