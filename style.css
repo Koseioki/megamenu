@@ -50,7 +50,9 @@ ul {
     position: absolute;
     top: 100%;
     /* width: 100% !important; */
-    display: flex;
+    /* display: grid !important; */
+    grid-template-columns: repeat(4, 1fr);
+    display: none;
 }
 
 

@@ -5,8 +5,8 @@
   const content2 = document.getElementById('toggleContent2');
 
   // by default the content is hidden
-  content.style.display = 'none';
-  content2.style.display = 'none';
+  // content.style.display = 'none';
+  // content2.style.display = 'none';
 
   // When the button is clicked,
   // 1. toggle div toggleContent
@@ -15,7 +15,7 @@
 
   button.addEventListener('click', function() {
     if (content.style.display === 'none') {
-      content.style.display = 'block';
+      content.style.display = 'grid';
       button.setAttribute('aria-expanded', 'true');
       button.querySelector('span').textContent = '▲';
       content2.style.display = 'none';
@@ -45,7 +45,7 @@
 
   button2.addEventListener('click', function() {
     if (content2.style.display === 'none') {
-      content2.style.display = 'block';
+      content2.style.display = 'grid';
       button2.setAttribute('aria-expanded', 'true');
       button2.querySelector('span').textContent = '▲';
       content.style.display = 'none';
