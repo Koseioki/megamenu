@@ -53,17 +53,27 @@ ul {
     /* display: grid !important; */
     grid-template-columns: repeat(4, 1fr);
     display: none;
+    padding: 1rem;
 }
 
 
 .fEXuiY a {
     color: black;
+    text-decoration: underline;
+}
+
+.fEXuiY a:hover,
+.fEXuiY a:focus {
     text-decoration: none;
+}
+
+.fEXuiY h2 {
+    font-size: 1rem;
 }
 
 .fEXuiY ul {
     list-style: none;
-    padding: 1rem;
+    padding: 0;
 }
 
 /* each section in a expanded menu */
