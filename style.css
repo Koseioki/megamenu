@@ -1,0 +1,79 @@
+html {
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.flex {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+/* svg ">" icon */
+.svg-inline--fa,
+.fa-angle-righ {
+    height: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* the main menu list */
+.jBCNSh {
+    list-style: none;
+    background-color: darkgreen;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    position: relative;
+
+}
+
+.jBCNSh a {
+    color: white;
+    text-decoration: none;
+}
+
+/* the sub menu list */
+.dlyNuh {
+    width: 100% !important;
+}
+
+/* expanded box */
+.fEXuiY {
+    border: 1px solid blue;
+    background-color: whitesmoke;
+    position: absolute;
+    /* display: flex; */
+    
+}
+.fEXuiY a {
+    color: black;
+    text-decoration: none;
+}
+
+.fEXuiY ul {
+    list-style: none;
+    padding: 1rem;
+}
+
+.toggle-button {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+
+}
+
+/* each list item in the menu */
+/* .gxikrO {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+} */
