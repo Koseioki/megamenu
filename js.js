@@ -101,3 +101,5 @@
         });
     }
   });
+
+  // when #searchExpandButton is clicked, show #searchBar and #searchExpandButton

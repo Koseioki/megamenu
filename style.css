@@ -171,3 +171,19 @@ ul {
     right: 0;
     z-index: 100;
 }
+
+
+.image-text-link{
+    cursor: pointer;
+}
+.image-text-link:hover,
+.image-text-link:focus,
+.image-text-link:focus-within{
+    outline: black 1px solid;
+
+}
+
+.image-text-link:hover a{
+    text-decoration: none;
+
+}
