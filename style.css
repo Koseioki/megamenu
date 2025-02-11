@@ -1,189 +1,49 @@
 
-*{
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-
-}
-html {
-    font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 3rem;
 }
 
-.flex {
+.nav-container{
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    align-items: center;
+    /* background-color: #eeeeff; */
     gap: 1rem;
+
+
 }
 
-/* svg ">" icon */
-.svg-inline--fa,
-.fa-angle-righ {
-    height: 1rem;
+.svg-icon {
+    width: 1rem;
 }
 
-ul {
+.menu-list {
     list-style-type: none;
-}
-
-/* the main menu list */
-.jBCNSh {
-    list-style: none;
-    background-color: darkgreen;
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    margin: 1rem 0;
-    position: relative;
-    width: 100%;
-
-}
-
-.jBCNSh a {
-    color: white;
-    text-decoration: none;
-}
-
-/* the sub menu list */
-.dlyNuh {
-    width: 100% !important;
-}
-
-/* expanded box */
-.fEXuiY {
-    border: 1px solid blue;
-    background-color: whitesmoke;
-    position: absolute;
-    top: 100%;
-    /* width: 100% !important; */
-    /* display: grid !important; */
-    grid-template-columns: repeat(4, 1fr);
-    display: none;
-    padding: 1rem;
-}
-
-
-.fEXuiY a {
-    color: black;
-    text-decoration: underline;
-}
-
-.fEXuiY a:hover,
-.fEXuiY a:focus {
-    text-decoration: none;
-}
-
-.fEXuiY h2 {
-    font-size: 1rem;
-}
-
-.fEXuiY ul {
-    list-style: none;
+    margin: 0;
     padding: 0;
-}
-
-/* each section in a expanded menu */
-.dlyNuh{
-    /* display: block; */
-}
-.toggle-button {
-    border: 1px solid white;
-    background-color: transparent;
-    color: white;
-    cursor: pointer;
-    padding: 0.5rem;
-
-}
-
-/* each list item in the menu */
-.gxikrO {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    /* position: relative */
-
-}
-
-
-
-.bypass-block{
-    border: green 0.125rem solid;
-    padding: 1rem;
-    background-color: white;
-    /* display: inline-block; */
-    position: absolute;
-    top: -10rem;
-}
-
-.bypass-block:focus{
-    top: 0;
-}
-
-/* spks logo */
-.eqXivc {
-    width: 20rem;
-}
-
-/* a div for the first line of the header */
-.fNTjEn{
     display: flex;
-    justify-content: space-between;
-    /* margin: 1rem 3rem; */
-}
-
-/* a div for spørgsmål and log på */
-.eBZYjj {
-    display: inline-flex;
     gap: 1rem;
+        border: 1px solid #444444;
+
+    
+
 }
 
-/* question link */
-.lbrThZ{
-    background-color: white;
-    padding: 0.5rem;
-    color: darkgreen;
-    border: 0.125rem darkgreen solid;
-}
-
-
-/* log in button */
-.BtkXz{
-    background-color: darkgreen;
-    color: white;
-    padding: 0.5rem 1rem;
-    border: none;
-    cursor: pointer;
-    position: relative;
-}
-
-
-
-/* log in dropdown box */
-.bzNoZD{
-    background-color: white;
-    border: 0.0625rem green solid;
+.menu-list li {
     padding: 1rem;
-    box-shadow: 0 0 0.5rem 0.125rem rgba(0, 0, 0, 0.1);
-    position: absolute;
-    right: 0;
-    z-index: 100;
+    /* border: 1px solid #444444; */
 }
 
-
-.image-text-link{
+.search-button{
+    background-color: #4444ff;
+    color: white;
+    padding: 1rem;
+    border: none;
+    /* border-radius: 0.5rem; */
     cursor: pointer;
 }
-.image-text-link:hover,
-.image-text-link:focus,
-.image-text-link:focus-within{
-    outline: black 1px solid;
 
-}
-
-.image-text-link:hover a{
-    text-decoration: none;
-
+#willAppear{
+    display: none;
 }

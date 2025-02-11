@@ -62,6 +62,9 @@
     }
   });
 
+
+  
+
   // Add keyboard navigation for the menus
   document.addEventListener('keydown', function(event) {
     const focusableElements = 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
@@ -102,4 +105,3 @@
     }
   });
 
-  // when #searchExpandButton is clicked, show #searchBar and #searchExpandButton
