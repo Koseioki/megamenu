@@ -1,44 +1,84 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
+    <a href="#main-content">Videre til inhold</a>
+
     <header>
-        <a href="/" aria-label="Til forsiden">
-            <img src="./spks.svg" alt="" class="logo">
-        </a>
+        <div class="first-row">
+            <a href="/" aria-label="Til forsiden">
+                <img src="./spks.svg" alt="" class="logo">
+            </a>
 
 
-        <div role="search">
-            <label>Søg</label>
-            <input type="search" placeholder="Hvad leder du efter?">
-            <button type="submit" aria-label="Søg">🔎</button>
+            <div role="search">
+                <label>Søg</label>
+                <input type="search" placeholder="Hvad leder du efter?">
+                <button type="submit" aria-label="Søg">🔎</button>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="/">Hjælp</a></li>
+                    <li><a href="/">Find filial</a></li>
+                    <li><a href="/">Bliv kunde</a></li>
+                    <li><a href="/">Netbank</a></li>
+                </ul>
+            </nav>
         </div>
 
-        <nav>
+        
+        <nav aria-label="Hovedmenu" class="main-menu">
             <ul>
-                <li><a href="/">Hjælp</a></li>
-                <li><a href="/">Find filial</a></li>
-                <li><a href="/">Bliv kunde</a></li>
-                <li><a href="/">Netbank</a></li>
-            </ul>
-        </nav>
+                <li>
+                    <a href="/">Dit liv</a>
+                    <button aria-expanded="false" aria-label="Sub-menu">🔽</button>
 
-        <nav aria-label="Hovedmenu">
-            <ul>
-                <li><a href="/">Privat</a></li>
-                <li><a href="/">Erhverv</a></li>
-                <li><a href="/">Private Banking</a></li>
-                <li><a href="/">Om os</a></li>
+                    <ul aria-label="Dit liv sub-menu">
+                        <li><a href="/">Boligdrømme</a></li>
+                        <ul aria-label="Boligdrømme sub-menu">
+                            <li><a href="/">Køb af bolig</a></li>
+                            <li><a href="/">Salg af bolig</a></li>
+                            <li><a href="/">Renovering eller tilbygning</a></li>
+                            <li><a href="/">Byg nyt hus</a></li>
+                        </ul>
+                        <li><a href="/">Familieliv</a></li>
+                        <ul aria-label="Falimieliv sub-menu">
+                            <li><a href="/">Familieforøgelse</a></li>
+                            <li><a href="/">Bryllup</a></li>
+                            <li><a href="/">Skilmisse</a></li>
+                            <li><a href="/">Ferie og rejsetips</a></li>
+                            <li><a href="/">Når en af dine nærmeste dør</a></li>
+                            <li><a href="/">Forsikringer</a></li>
+                            <li><a href="/">Fremtidsfulmagt og testamente</a></li>
+                        </ul>
+                        <li><a href="/">Arbejdsliv</a></li>
+                        <li><a href="/">Foreningsliv</a></li>
+                    </ul>
+                </li>
+                <li><a href="/">Produkter</a></li>
+                <li><a href="/">Enhverv</a></li>
+                <li><a href="/">Landbrug</a></li>
+                <li><a href="/">Formue</a></li>
+                <li><a href="/">Om Sparekassen</a></li>
+                <li><a href="/">Kontakt</a></li>
             </ul>
         </nav>
 
     </header>
-    
+
+    <main id="main-content">
+        main content
+    </main>
+
 </body>
+
 </html>

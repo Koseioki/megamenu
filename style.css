@@ -1,4 +1,32 @@
 
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .logo{
     width: 20rem;
+}
+
+.first-row {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}   
+
+.main-menu ul {
+    display: flex;
+    gap: 2rem;
+    border: green 0.125rem solid;
+}
+
+.main-menu ul li ul {
+    list-style: none;
+    display: block;
+    margin-right: 1rem;
+    /* position: relative; */
+    border: pink 0.125rem solid;
 }
